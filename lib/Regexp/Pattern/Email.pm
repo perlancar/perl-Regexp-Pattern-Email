@@ -1,13 +1,13 @@
 package Regexp::Pattern::Email;
 
+use 5.014000; # for (?^...) regex construct
+use strict;
+use warnings;
+
 # AUTHORITY
 # DATE
 # DIST
 # VERSION
-
-use 5.014000; # for (?^...) regex construct
-use strict;
-use warnings;
 
 our %RE = (
     email_address => {
