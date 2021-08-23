@@ -5,6 +5,7 @@ package Regexp::Pattern::Email;
 # DIST
 # VERSION
 
+use 5.014000; # for (?^...) regex construct
 use strict;
 use warnings;
 
